@@ -6,6 +6,7 @@
 //  Copyright (c) 2017 Aurélien Grifasi. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 class FPNSearchCountryViewController: UITableViewController, UISearchResultsUpdating, UISearchControllerDelegate {
@@ -14,7 +15,7 @@ class FPNSearchCountryViewController: UITableViewController, UISearchResultsUpda
 	var list: [FPNCountry]?
 	var results: [FPNCountry]?
 
-	weak var delegate: FPNDelegate?
+	var delegate: FPNDelegate?
 
 	init(countries: [FPNCountry]) {
 		super.init(nibName: nil, bundle: nil)

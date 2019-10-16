@@ -43,13 +43,13 @@ open class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDat
 		}
 	}
 
-	public func setup(without countryCodes: [FPNCountryCode]) {
-		countries = getAllCountries(excluding: countryCodes)
-
-		if let code = countries.first?.code {
-			setCountry(code)
-		}
-	}
+//    public func setup(without countryCodes: [FPNCountryCode]) {
+//        countries = getAllCountries(excluding: countryCodes)
+//
+//        if let code = countries.first?.code {
+//            setCountry(code)
+//        }
+//    }
 
 	// MARK: - Locale Methods
 
@@ -62,6 +62,22 @@ open class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDat
 	open func setCountry(_ code: FPNCountryCode) {
 		for index in 0..<countries.count {
 			if countries[index].code == code {
+				return self.setCountryByRow(row: index)
+			}
+		}
+	}
+
+	open func setCountryByPhoneCode(_ phoneCode: String) {
+		for index in 0..<countries.count {
+			if countries[index].phoneCode == phoneCode {
+				return self.setCountryByRow(row: index)
+			}
+		}
+	}
+
+	open func setCountryByName(_ name: String) {
+		for index in 0..<countries.count {
+			if countries[index].name == name {
 				return self.setCountryByRow(row: index)
 			}
 		}
@@ -117,16 +133,16 @@ open class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDat
 		return countries.sorted(by: { $0.name < $1.name })
 	}
 
-	private func getAllCountries(excluding countryCodes: [FPNCountryCode]) -> [FPNCountry] {
-		var allCountries = getAllCountries()
-
-		for countryCode in countryCodes {
-			allCountries.removeAll(where: { (country: FPNCountry) -> Bool in
-				return country.code == countryCode
-			})
-		}
-		return allCountries
-	}
+//    private func getAllCountries(excluding countryCodes: [FPNCountryCode]) -> [FPNCountry] {
+//        var allCountries = getAllCountries()
+//
+//        for countryCode in countryCodes {
+//            allCountries.removeAll(where: { (country: FPNCountry) -> Bool in
+//                return country.code == countryCode
+//            })
+//        }
+//        return allCountries
+//    }
 
 	private func getAllCountries(equalTo countryCodes: [FPNCountryCode]) -> [FPNCountry] {
 		let allCountries = getAllCountries()

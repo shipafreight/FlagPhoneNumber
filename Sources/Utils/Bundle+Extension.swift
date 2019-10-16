@@ -7,11 +7,10 @@
 
 import Foundation
 
-public extension Bundle {
+extension Bundle {
+	static public var FlagIcons = FlagPhoneNumber()
 
-	@objc	static var FlagIcons = FlagPhoneNumber()
-
-	@objc static func FlagPhoneNumber() -> Bundle {
+	static public func FlagPhoneNumber() -> Bundle {
 		let bundle = Bundle(for: FPNTextField.self)
 
 		if let path = bundle.path(forResource: "FlagPhoneNumber", ofType: "bundle") {
