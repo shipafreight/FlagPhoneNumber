@@ -28,23 +28,15 @@
 		9F377CA5235720C300517849 /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C89235720C300517849 /* NSArray+NBAdditions.m */; };
 		9F377CA6235720C300517849 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C8A235720C300517849 /* NBMetadataHelper.h */; };
 		9F377CA7235720C300517849 /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C8B235720C300517849 /* NBPhoneNumberDefines.h */; };
-		9F377CA8235720C300517849 /* NBRegExMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C8D235720C300517849 /* NBRegExMatcher.h */; };
-		9F377CA9235720C300517849 /* NBRegularExpressionCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C8E235720C300517849 /* NBRegularExpressionCache.h */; };
-		9F377CAA235720C300517849 /* NBRegExMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C8F235720C300517849 /* NBRegExMatcher.m */; };
-		9F377CAB235720C300517849 /* NBRegularExpressionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C90235720C300517849 /* NBRegularExpressionCache.m */; };
-		9F377CAC235720C300517849 /* GeneratePhoneNumberHeader.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9F377C91235720C300517849 /* GeneratePhoneNumberHeader.sh */; };
 		9F377CAD235720C300517849 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C92235720C300517849 /* NBNumberFormat.m */; };
 		9F377CAE235720C300517849 /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C93235720C300517849 /* NBPhoneNumberDesc.h */; };
-		9F377CAF235720C300517849 /* NBPhoneNumberUtil+ShortNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C94235720C300517849 /* NBPhoneNumberUtil+ShortNumber.m */; };
 		9F377CB0235720C300517849 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C95235720C300517849 /* NBAsYouTypeFormatter.h */; };
 		9F377CB1235720C300517849 /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C96235720C300517849 /* NBPhoneNumber.m */; };
 		9F377CB2235720C300517849 /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C97235720C300517849 /* NBPhoneMetaData.h */; };
 		9F377CB3235720C300517849 /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C98235720C300517849 /* NBMetadataHelper.m */; };
 		9F377CB4235720C300517849 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C99235720C300517849 /* NSArray+NBAdditions.h */; };
 		9F377CB5235720C300517849 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C9A235720C300517849 /* NBPhoneNumberUtil.h */; };
-		9F377CB6235720C300517849 /* NBPhoneNumberMetadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F377C9B235720C300517849 /* NBPhoneNumberMetadata.plist */; };
 		9F377CB7235720C300517849 /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C9C235720C300517849 /* NBGeneratedPhoneNumberMetaData.h */; };
-		9F377CB8235720C300517849 /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C9D235720C300517849 /* NBPhoneNumberUtil+ShortNumber.h */; };
 		9F377CB9235720C300517849 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377C9E235720C300517849 /* NBPhoneNumberDesc.m */; };
 		9F377CBA235720C300517849 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F377C9F235720C300517849 /* NBNumberFormat.h */; };
 		9F377CBB235720C300517849 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F377CA0235720C300517849 /* NBPhoneNumberDefines.m */; };
@@ -75,23 +67,15 @@
 		9F377C89235720C300517849 /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NBAdditions.m"; sourceTree = "<group>"; };
 		9F377C8A235720C300517849 /* NBMetadataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBMetadataHelper.h; sourceTree = "<group>"; };
 		9F377C8B235720C300517849 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDefines.h; sourceTree = "<group>"; };
-		9F377C8D235720C300517849 /* NBRegExMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRegExMatcher.h; sourceTree = "<group>"; };
-		9F377C8E235720C300517849 /* NBRegularExpressionCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRegularExpressionCache.h; sourceTree = "<group>"; };
-		9F377C8F235720C300517849 /* NBRegExMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRegExMatcher.m; sourceTree = "<group>"; };
-		9F377C90235720C300517849 /* NBRegularExpressionCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRegularExpressionCache.m; sourceTree = "<group>"; };
-		9F377C91235720C300517849 /* GeneratePhoneNumberHeader.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GeneratePhoneNumberHeader.sh; sourceTree = "<group>"; };
 		9F377C92235720C300517849 /* NBNumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNumberFormat.m; sourceTree = "<group>"; };
 		9F377C93235720C300517849 /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDesc.h; sourceTree = "<group>"; };
-		9F377C94235720C300517849 /* NBPhoneNumberUtil+ShortNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBPhoneNumberUtil+ShortNumber.m"; sourceTree = "<group>"; };
 		9F377C95235720C300517849 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
 		9F377C96235720C300517849 /* NBPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumber.m; sourceTree = "<group>"; };
 		9F377C97235720C300517849 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneMetaData.h; sourceTree = "<group>"; };
 		9F377C98235720C300517849 /* NBMetadataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBMetadataHelper.m; sourceTree = "<group>"; };
 		9F377C99235720C300517849 /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NBAdditions.h"; sourceTree = "<group>"; };
 		9F377C9A235720C300517849 /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberUtil.h; sourceTree = "<group>"; };
-		9F377C9B235720C300517849 /* NBPhoneNumberMetadata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NBPhoneNumberMetadata.plist; sourceTree = "<group>"; };
 		9F377C9C235720C300517849 /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
-		9F377C9D235720C300517849 /* NBPhoneNumberUtil+ShortNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBPhoneNumberUtil+ShortNumber.h"; sourceTree = "<group>"; };
 		9F377C9E235720C300517849 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDesc.m; sourceTree = "<group>"; };
 		9F377C9F235720C300517849 /* NBNumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNumberFormat.h; sourceTree = "<group>"; };
 		9F377CA0235720C300517849 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDefines.m; sourceTree = "<group>"; };
@@ -183,36 +167,20 @@
 				9F377C89235720C300517849 /* NSArray+NBAdditions.m */,
 				9F377C8A235720C300517849 /* NBMetadataHelper.h */,
 				9F377C8B235720C300517849 /* NBPhoneNumberDefines.h */,
-				9F377C8C235720C300517849 /* Internal */,
-				9F377C91235720C300517849 /* GeneratePhoneNumberHeader.sh */,
 				9F377C92235720C300517849 /* NBNumberFormat.m */,
 				9F377C93235720C300517849 /* NBPhoneNumberDesc.h */,
-				9F377C94235720C300517849 /* NBPhoneNumberUtil+ShortNumber.m */,
 				9F377C95235720C300517849 /* NBAsYouTypeFormatter.h */,
 				9F377C96235720C300517849 /* NBPhoneNumber.m */,
 				9F377C97235720C300517849 /* NBPhoneMetaData.h */,
 				9F377C98235720C300517849 /* NBMetadataHelper.m */,
 				9F377C99235720C300517849 /* NSArray+NBAdditions.h */,
 				9F377C9A235720C300517849 /* NBPhoneNumberUtil.h */,
-				9F377C9B235720C300517849 /* NBPhoneNumberMetadata.plist */,
 				9F377C9C235720C300517849 /* NBGeneratedPhoneNumberMetaData.h */,
-				9F377C9D235720C300517849 /* NBPhoneNumberUtil+ShortNumber.h */,
 				9F377C9E235720C300517849 /* NBPhoneNumberDesc.m */,
 				9F377C9F235720C300517849 /* NBNumberFormat.h */,
 				9F377CA0235720C300517849 /* NBPhoneNumberDefines.m */,
 			);
 			path = libPhoneNumber;
-			sourceTree = "<group>";
-		};
-		9F377C8C235720C300517849 /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				9F377C8D235720C300517849 /* NBRegExMatcher.h */,
-				9F377C8E235720C300517849 /* NBRegularExpressionCache.h */,
-				9F377C8F235720C300517849 /* NBRegExMatcher.m */,
-				9F377C90235720C300517849 /* NBRegularExpressionCache.m */,
-			);
-			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,15 +195,12 @@
 				9F377CB7235720C300517849 /* NBGeneratedPhoneNumberMetaData.h in Headers */,
 				9F377CA1235720C300517849 /* NBPhoneNumber.h in Headers */,
 				9F377CB4235720C300517849 /* NSArray+NBAdditions.h in Headers */,
-				9F377CA8235720C300517849 /* NBRegExMatcher.h in Headers */,
 				9F377CB2235720C300517849 /* NBPhoneMetaData.h in Headers */,
 				9F377CB5235720C300517849 /* NBPhoneNumberUtil.h in Headers */,
 				9F377CB0235720C300517849 /* NBAsYouTypeFormatter.h in Headers */,
 				9F377CA7235720C300517849 /* NBPhoneNumberDefines.h in Headers */,
 				9F377CAE235720C300517849 /* NBPhoneNumberDesc.h in Headers */,
 				9F377CA6235720C300517849 /* NBMetadataHelper.h in Headers */,
-				9F377CB8235720C300517849 /* NBPhoneNumberUtil+ShortNumber.h in Headers */,
-				9F377CA9235720C300517849 /* NBRegularExpressionCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,10 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F377CAC235720C300517849 /* GeneratePhoneNumberHeader.sh in Resources */,
 				0D19301E2293078C002583B1 /* FPNCountryView.xib in Resources */,
 				0D19301F2293078C002583B1 /* countryCodes.json in Resources */,
-				9F377CB6235720C300517849 /* NBPhoneNumberMetadata.plist in Resources */,
 				0D1930202293078C002583B1 /* FlagKit.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,10 +280,8 @@
 				0D1930242293078C002583B1 /* FPNCountryView.swift in Sources */,
 				9F377CA3235720C300517849 /* NBPhoneMetaData.m in Sources */,
 				9F377CBB235720C300517849 /* NBPhoneNumberDefines.m in Sources */,
-				9F377CAF235720C300517849 /* NBPhoneNumberUtil+ShortNumber.m in Sources */,
 				9F377C7F23571F8900517849 /* FlagPhoneNumberTextField.swift in Sources */,
 				0D1930222293078C002583B1 /* FPNNibLoadingView.swift in Sources */,
-				9F377CAB235720C300517849 /* NBRegularExpressionCache.m in Sources */,
 				9F377CB3235720C300517849 /* NBMetadataHelper.m in Sources */,
 				9F377CAD235720C300517849 /* NBNumberFormat.m in Sources */,
 				0D1930232293078C002583B1 /* FPNCountryPicker.swift in Sources */,
@@ -330,7 +291,6 @@
 				0D1930252293078C002583B1 /* FPNCountry.swift in Sources */,
 				9F377C8223571F8900517849 /* FlagPhoneNumberDelegate.swift in Sources */,
 				9F377C8323571F8900517849 /* FPNSearchCountryViewController.swift in Sources */,
-				9F377CAA235720C300517849 /* NBRegExMatcher.m in Sources */,
 				0D1930212293078C002583B1 /* FPNCountryPickerDelegate.swift in Sources */,
 				0D1930272293078C002583B1 /* Bundle+Extension.swift in Sources */,
 				9F377C8023571F8900517849 /* FPNFormat.swift in Sources */,
